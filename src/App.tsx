@@ -1,39 +1,26 @@
-import React from 'react';
-import styled from 'styled-components';
+import styled from "styled-components";
+import TitleHeader from "./UI/Header";
+import GameContainer from "./UI/GameContainer";
 
 function App() {
-
   const PageWrapper = styled.div`
   background-color: #c1ae9f;
-  width: 100vw;
-  height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
- `
-
-  const TitleWrapper = styled.div`
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;`
-
-  const GameWrapper = styled.div`
-    height: 300px;
-    width: 500px;
-    margin-top: 100px;
-    background-color: white;
-  `
+  margin: 0px;
+  height: 100vh;
+  width: 100wh;
+  `;
 
   return (
     <PageWrapper>
-      <TitleWrapper>
-      Ephemeral Journeys
-      </TitleWrapper>
-      <GameWrapper/>
+      <TitleHeader />
+      <GameContainer />
     </PageWrapper>
-  )
+  );
 }
 
-export default App
+export default App;
