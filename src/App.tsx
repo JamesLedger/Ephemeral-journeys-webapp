@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import TitleHeader from "./UI/Header";
 import GameContainer from "./UI/GameContainer";
+import Footer from "./UI/Footer";
 
 function App() {
   const PageWrapper = styled.div`
@@ -19,6 +20,7 @@ function App() {
     <PageWrapper>
       <TitleHeader />
       <GameContainer />
+      <Footer />
     </PageWrapper>
   );
 }
