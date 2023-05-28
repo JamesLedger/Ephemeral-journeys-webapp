@@ -3,8 +3,8 @@ import { Unity, useUnityContext } from "react-unity-webgl"
 
 const GameWrapper = styled.div`
   background-color: red;
-  width: 960px;
-  height: 600px;
+  width: 1400px;
+  height: 800px;
 `
 
 const UnityCanvas = styled(Unity)`
