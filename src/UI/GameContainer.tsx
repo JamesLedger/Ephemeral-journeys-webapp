@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { Unity, useUnityContext } from "react-unity-webgl"
 
 const GameWrapper = styled.div`
-  background-color: red;
+  background-color: black;
   width: 1400px;
   height: 800px;
 `
